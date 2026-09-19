@@ -1,0 +1,12 @@
+
+Prime count comparison
+=======================================================
+x =   10   actual pi(x) =    4   smooth clock =    6.120   difference =   -2.120
+x =   25   actual pi(x) =    9   smooth clock =   11.468   difference =   -2.468
+x =   50   actual pi(x) =   15   smooth clock =   18.424   difference =   -3.424
+x =  100   actual pi(x) =   25   smooth clock =   30.081   difference =   -5.081
+x =  200   actual pi(x) =   46   smooth clock =   50.147   difference =   -4.147
+x =  500   actual pi(x) =   95   smooth clock =  101.749   difference =   -6.749
+x = 1000   actual pi(x) =  168   smooth clock =  177.564   difference =   -9.564
+
+Saved figure to: C:\Users\Dez\Desktop\Workspace\Primes\experiments\prime_wave\results\figure.png

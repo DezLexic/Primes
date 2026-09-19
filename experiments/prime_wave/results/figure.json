@@ -1,0 +1,7 @@
+{
+  "x_min": 2,
+  "x_max": 1000,
+  "num_points": 200000,
+  "save": "C:\\Users\\Dez\\Desktop\\Workspace\\Primes\\experiments\\prime_wave\\results\\figure.png",
+  "no_show": true
+}
