@@ -1,0 +1,31 @@
+
+Time-dilated Klein-Gordon worldline experiment
+====================================================================
+mass m                  : 1
+constant force F        : 0.05
+lab-time range          : 0 to 100
+final gamma             : 5.099020
+final clock rate 1/gamma: 0.196116
+zero crossings          : 14
+
+Worldline clock:
+  p(t) = F*t
+  d_tau/dt = 1/sqrt(1 + (p(t)/m)^2)
+  phase(t) = m * integral(d_tau/dt) dt
+
+Near-integer event rule:
+  a continuous KG crossing must be within 0.1 of an integer t
+
+  integer     distance     diagnostic
+---------------------------------------
+       46     0.025978      composite
+       89     0.061273          prime
+
+After-the-fact prime comparison (not used by the field)
+--------------------------------------------------------------------
+selected integers      : 2
+selected primes        : 1
+precision              : 0.500
+prime recall           : 0.040
+
+Saved figure to: C:\Users\Dez\Desktop\Workspace\Primes\experiments\kg_worldline\results\figure.png

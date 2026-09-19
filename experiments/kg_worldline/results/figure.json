@@ -1,0 +1,9 @@
+{
+  "mass": 1.0,
+  "force": 0.05,
+  "duration": 100.0,
+  "view_momentum": 2.0,
+  "tolerance": 0.1,
+  "save": "C:\\Users\\Dez\\Desktop\\Workspace\\Primes\\experiments\\kg_worldline\\results\\figure.png",
+  "no_show": true
+}
