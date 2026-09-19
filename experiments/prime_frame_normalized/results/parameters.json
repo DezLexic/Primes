@@ -1,0 +1,42 @@
+{
+  "created_utc": "2026-09-19T00:35:43.557588+00:00",
+  "frames": [
+    2,
+    3,
+    5,
+    7,
+    11,
+    13,
+    17,
+    19
+  ],
+  "comparison_frames": [
+    2,
+    3,
+    5,
+    7,
+    11
+  ],
+  "history_frames": [
+    3,
+    5,
+    7,
+    11,
+    13
+  ],
+  "zeros": 10,
+  "k_max": 5,
+  "dps": 30,
+  "track_zeros": 5,
+  "artificial_beta": 0.4,
+  "artificial_gamma": 14.134725141734695,
+  "include_conjugates": true,
+  "zero_source": "mpmath.zetazero; critical-line samples, not an RH proof",
+  "output_precision": "float64 / complex128",
+  "max_absolute_residual": 1.4210854715202004e-14,
+  "tolerance_rtol": 2e-14,
+  "tolerance_atol": 2e-14,
+  "numpy": "2.5.2",
+  "matplotlib": "3.11.1",
+  "mpmath": "1.3.0"
+}

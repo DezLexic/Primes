@@ -1,0 +1,55 @@
+Normalized prime frames: (X,Y)=p*(Re(s_p),Im(s_p))=2*(Re(z),Im(z)).
+Frames: (2, 3, 5, 7, 11, 13, 17, 19); 10 positive-height zeros (+ conjugates); comb k=-5..5.
+Raw frames shrink with 1/p; normalized inherited geometry remains fixed.
+For successive prime frames, the only new comb is the previous frame prime's factor-zero comb.
+Inherited spectrum is collective; individual zeta zeros are not assigned to individual primes.
+Primes label factors 1-q^(-z); factor zeros lie on X=0. Primes themselves are not plotted as points.
+At p=2 there are no passed-prime combs. Each factor's coincident origin is retained.
+Collapse is expected from the coordinate map, not evidence for RH. No physical interpretation is made.
+The artificial beta=0.4 point stays at X=0.8, offset -0.2 in units of the frame gap.
+Normalized p=11 matches normalized p=2; it is twice raw p=2 (which equals the common coordinate).
+Plots use independent x/y scales, shared limits within each coordinate system, and no jitter.
+Verified 476 diagnostic rows; max absolute coordinate residual: 1.421e-14.
+First five zeros (or all requested if fewer), positive heights:
+  p   n       raw_real       raw_imag    normalized_X    normalized_Y
+  2   1    0.500000000   14.134725142     1.000000000    28.269450283
+  2   2    0.500000000   21.022039639     1.000000000    42.044079278
+  2   3    0.500000000   25.010857580     1.000000000    50.021715160
+  2   4    0.500000000   30.424876126     1.000000000    60.849752252
+  2   5    0.500000000   32.935061588     1.000000000    65.870123175
+  3   1    0.333333333    9.423150094     1.000000000    28.269450283
+  3   2    0.333333333   14.014693093     1.000000000    42.044079278
+  3   3    0.333333333   16.673905053     1.000000000    50.021715160
+  3   4    0.333333333   20.283250751     1.000000000    60.849752252
+  3   5    0.333333333   21.956707725     1.000000000    65.870123175
+  5   1    0.200000000    5.653890057     1.000000000    28.269450283
+  5   2    0.200000000    8.408815856     1.000000000    42.044079278
+  5   3    0.200000000   10.004343032     1.000000000    50.021715160
+  5   4    0.200000000   12.169950450     1.000000000    60.849752252
+  5   5    0.200000000   13.174024635     1.000000000    65.870123175
+  7   1    0.142857143    4.038492898     1.000000000    28.269450283
+  7   2    0.142857143    6.006297040     1.000000000    42.044079278
+  7   3    0.142857143    7.145959309     1.000000000    50.021715160
+  7   4    0.142857143    8.692821750     1.000000000    60.849752252
+  7   5    0.142857143    9.410017596     1.000000000    65.870123175
+ 11   1    0.090909091    2.569950026     1.000000000    28.269450283
+ 11   2    0.090909091    3.822189025     1.000000000    42.044079278
+ 11   3    0.090909091    4.547428651     1.000000000    50.021715160
+ 11   4    0.090909091    5.531795659     1.000000000    60.849752252
+ 11   5    0.090909091    5.988193016     1.000000000    65.870123175
+ 13   1    0.076923077    2.174573099     1.000000000    28.269450283
+ 13   2    0.076923077    3.234159944     1.000000000    42.044079278
+ 13   3    0.076923077    3.847824243     1.000000000    50.021715160
+ 13   4    0.076923077    4.680750173     1.000000000    60.849752252
+ 13   5    0.076923077    5.066932552     1.000000000    65.870123175
+ 17   1    0.058823529    1.662908840     1.000000000    28.269450283
+ 17   2    0.058823529    2.473181134     1.000000000    42.044079278
+ 17   3    0.058823529    2.942453833     1.000000000    50.021715160
+ 17   4    0.058823529    3.579397191     1.000000000    60.849752252
+ 17   5    0.058823529    3.874713128     1.000000000    65.870123175
+ 19   1    0.052631579    1.487865804     1.000000000    28.269450283
+ 19   2    0.052631579    2.212846278     1.000000000    42.044079278
+ 19   3    0.052631579    2.632721851     1.000000000    50.021715160
+ 19   4    0.052631579    3.202618540     1.000000000    60.849752252
+ 19   5    0.052631579    3.466848588     1.000000000    65.870123175
+Outputs: C:\Users\Dez\Desktop\Workspace\Primes\experiments\prime_frame_normalized\results
