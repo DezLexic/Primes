@@ -1,0 +1,41 @@
+This measures finite products, not a convergent critical-line Euler product.
+The ordinary product does NOT naively converge to 1/zeta on Re(z)=1/2.
+Zeta zeros are collective global features; individual primes do not generate individual zeros.
+Elementary factors have interference-like phasor algebra; their product is multiplicative,
+not a standard many-slit amplitude sum. No quantum mechanics, mass gap, or RH claim follows.
+Resemblance must be measured, not assumed. A feature near gamma_1 is interesting only if
+stable across cutoffs AND better aligned than reasonable controls.
+Finite sweeps cannot establish asymptotic convergence, even if offsets decrease.
+Nearest extrema may switch identity. Track IDs use mutual-nearest matching with a fixed
+maximum jump, independent of gamma; they are heuristic, not certified continuation.
+Shrinking nearest distances can result from increasing feature density. Counts are saved.
+Missing features are blank, never zero distances. Endpoints are not extrema.
+Out-of-window zeros have exact signal/phase evaluations but no feature offsets.
+Unbracketed offsets may be boundary censored. Common-bracketed summaries use the same
+zero cohort across ALL datasets/replicates per cutoff and feature kind. Cohorts may
+change with cutoff; inspect IDs/counts before treating averages as trajectories.
+Control bands show replicate ranges, not confidence intervals. No p-values are fitted.
+Phase-scrambled primes keep fixed seeded phases across cutoffs. Shuffled rates permute
+the exact frequency set separately at each cutoff and are not nested trajectories.
+Prominence and half-prominence widths are grid estimates; locations/heights are refined.
+No zero ordinates enter the detector or the refinement. No gamma points are inserted
+into the uniform detection grid. Thresholds are shared across every dataset.
+
+
+Computed 20 zeros; 13 inside the main grid.
+Resolution checks: 24/24 passed; 0 refinement warnings.
+Resolution check includes real/taper and replicate 0 of each control at up to three cutoffs.
+A failed check means detection counts or refined locations changed; increase resolution before interpretation.
+Small/smoke runs verify plumbing only. Even the default run does not establish convergence.
+
+First-zero signed offsets (blank means unavailable):
+P=5: peak=-0.29032923881527317, min=-2.60944465522906
+P=29: peak=-0.057515166668205, min=-1.2749525522861695
+P=101: peak=0.04327265203572317, min=-1.2565171330738725
+
+Phase: inspect phase_summary.csv for stationary-phase offsets and rotation percentiles.
+A percentile describes this finite window, not a probability or evidence of a universal phase crossing.
+Raw log heatmap and mean-centered heatmap use shared color scales; no row variance rescaling.
+Full profiles use common y limits, including the deep tau=0 minimum; this may compress visible peaks.
+Optional taper results are sensitivity diagnostics, not a regularization or a zeta approximation.
+Output: C:\Users\Dez\Desktop\Workspace\Primes\experiments\prime_zero_features\results\smoke

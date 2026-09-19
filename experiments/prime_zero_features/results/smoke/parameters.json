@@ -1,0 +1,58 @@
+{
+  "cutoffs": [
+    5,
+    29,
+    101
+  ],
+  "tau_max": 60,
+  "points": 3001,
+  "zeros": 20,
+  "dps": 30,
+  "prominence": 0.1,
+  "min_width": 0,
+  "seed": 1729,
+  "control_replicates": 2,
+  "resolution_factor": 2,
+  "resolution_tolerance": 1e-05,
+  "track_max_jump": 0.5,
+  "trajectory_zeros": 6,
+  "buildup_cutoff": 101,
+  "buildup_points": 301,
+  "buildup_half_window": 2,
+  "buildup_zeros": [
+    1
+  ],
+  "taper": true,
+  "output": "C:\\Users\\Dez\\Desktop\\Workspace\\Primes\\experiments\\prime_zero_features\\results\\smoke",
+  "created_utc": "2026-09-19T18:22:40.421971+00:00",
+  "numpy": "2.5.2",
+  "scipy": "1.18.1",
+  "matplotlib": "3.11.1",
+  "mpmath": "1.3.0",
+  "python": "3.13.12",
+  "zero_source": "mpmath.zetazero; generated at dps, exported as float64",
+  "phase_branch": "sum of continuous factor arguments; no wrapping or recentering",
+  "resolution_cutoffs": [
+    5,
+    29,
+    101
+  ],
+  "resolution_replicates": [
+    0
+  ],
+  "actual_buildup_cutoff": 101,
+  "plots": [
+    "profiles.png",
+    "trajectories.png",
+    "offsets.png",
+    "heatmap_raw.png",
+    "heatmap_centered.png",
+    "phase.png",
+    "controls.png",
+    "control_profiles.png",
+    "control_offsets.png",
+    "buildup.png"
+  ],
+  "profile_key_format": "{dataset}_r{replicate}_P{cutoff}_{L|phase|slope|curvature|phase_slope|power}",
+  "taper_definition": "w(q/P)=(1+cos(pi*q/P))/2 for q<=P, zero beyond P"
+}
