@@ -1,0 +1,34 @@
+
+Ordered Clifford internal-momentum experiment
+======================================================================
+Visible vector momentum : 0 (opposing channels are exactly balanced)
+Initial internal Q      : 0.65
+Q growth               : 0.012 per x
+Final internal Q        : 2.09
+J-K orientation rate   : 0.23
+Observed I crossings   : 48
+Mean crossing gap      : 2.413510
+Gap std. deviation     : 0.836011
+Gap variation (std/avg): 0.346388
+
+Final rotor [scalar, I, J, K]
+  [ 0.071937 -0.139225  0.319456  0.934553]
+
+Near-integer I events (primality is checked only afterward)
+Tolerance: 0.1
+  integer     distance     diagnostic
+---------------------------------------
+       26     0.019409      composite
+       43     0.053959          prime
+       60     0.053661      composite
+       69     0.019918      composite
+       94     0.012981      composite
+      101     0.062573          prime
+      106     0.019392      composite
+      120     0.071364      composite
+
+Selected integers      : 8
+Selected primes        : 2
+Prime share            : 0.250
+
+Saved figure to: C:\Users\Dez\Desktop\Workspace\Primes\experiments\clifford_momentum\results\figure.png

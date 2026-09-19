@@ -1,0 +1,10 @@
+{
+  "duration": 120.0,
+  "points": 60001,
+  "q0": 0.65,
+  "momentum_growth": 0.012,
+  "orientation_rate": 0.23,
+  "tolerance": 0.1,
+  "save": "C:\\Users\\Dez\\Desktop\\Workspace\\Primes\\experiments\\clifford_momentum\\results\\figure.png",
+  "no_show": true
+}
