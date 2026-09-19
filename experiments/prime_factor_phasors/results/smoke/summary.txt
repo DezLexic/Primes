@@ -1,0 +1,23 @@
+Each factor Fq=1-q^(-z) is the sum of signed phasors 1 and -q^(-z).
+Writing r=q^(-sigma), |Fq|^2=(1-r)^2+4r sin^2(tau ln(q)/2).
+Both terms are nonnegative: a zero requires r=1 AND tau ln(q)=2 pi k.
+Since q>1, r=1 forces sigma=0, including when considering sigma<0.
+Thus z=2 pi i k/ln(q), s_p=4 pi i k/(p ln(q)), (X,Y)=(0,4 pi k/ln(q)).
+At sigma=1/2 each minimum is (1-1/sqrt(q))^2 > 0.
+For every finite frame, |Rp|^2=product |Fq|^2, not |sum Fq|^2.
+The sigma=1/2 product is exactly W_p from prime_frame; its D_p is W_p/B_p.
+Products explain that finite history modulation algebraically, without explaining zeta itself.
+Each factor zero is simple. The origin has multiplicity equal to the number of passed primes.
+Distinct prime combs share only the origin: a nonzero coincidence would imply q^a=r^b
+for distinct primes and positive integers a,b, contradicting unique factorization.
+At sigma=1/2 the finite product has a positive global minimum, attained at tau=0,
+equal to product (1-1/sqrt(q))^2. Small plotted values are not exact zeros.
+Inherited critical-line samples map to X=1; general beta maps to X=2 beta.
+These factor zeros are separate from inherited zeros, not inherited zeros moved to X=0.
+No identical two-phasor explanation for inherited zeta zeros is established.
+No claims about double-slit physics, quantum measurement, wave-particle duality,
+physical prime waves, an RH proof, or a mass gap are made.
+Float64 evaluation leaves tiny residuals at analytic zeros; markers use analytic locations.
+All products are finite. No infinite Euler product is evaluated on the critical line.
+
+Output: C:\Users\Dez\Desktop\Workspace\Primes\experiments\prime_factor_phasors\results\smoke
