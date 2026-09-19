@@ -1,0 +1,21 @@
+Finite prime-history experiment
+Frames: 168 (2 through 997)
+tau grid: [-60, 60], 4001 points
+p=3: W(0)=8.578643763e-02, chi=3.96020156, numerical chi=3.9602015
+p=5: W(0)=1.532427112e-02, chi=7.86112192, numerical chi=7.8611218
+p=7: W(0)=4.682680573e-03, chi=11.6520779, numerical chi=11.6520778
+p=11: W(0)=1.811861150e-03, chi=15.3509232, numerical chi=15.350923
+p=13: W(0)=8.839824171e-04, chi=18.9043336, numerical chi=18.9043334
+p=29: W(0)=9.852586165e-05, chi=32.4135222, numerical chi=32.4135215
+p=101: W(0)=9.215096455e-07, chi=78.4930673, numerical chi=78.4930654
+p=331: W(0)=1.890166923e-09, chi=173.218843, numerical chi=173.218839
+Last frame: tau_quad=0.0530375094; t_quad=0.000106394201
+Last chi/(2 sqrt(p) ln(p))=0.815282602
+Last scaled width=0.783124687; reference 1/sqrt(2)=0.707106781
+Final quarter of sampled frames: PNT ratio range [0.811735, 0.82274]
+The PNT reference is a leading-term diagnostic; a finite sweep does not establish convergence.
+p=2 is the empty product: W=B=D=1, chi=0, widths=infinity (omitted from width plots).
+Finite factors are positive: central suppression is not an interval of zero spectrum or a mass gap.
+The 1/p lines are imposed by z=(p/2)s_p; primes enter through factors, not as critical-line points.
+No vacuum-energy baseline or mass is introduced. Raw powers can underflow; use log columns.
+Outputs: C:\Users\Dez\Desktop\Workspace\Primes\experiments\prime_frame\results
