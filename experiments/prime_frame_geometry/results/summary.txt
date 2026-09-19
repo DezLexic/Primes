@@ -1,0 +1,17 @@
+Prime-frame geometry: z=(p/2)*s_p
+Frames: [2, 3, 5, 7, 11]; zeros: 10 (+ conjugates); comb k: -5..5
+Inherited-zero line: Re(s_p)=1/p for the sampled beta=1/2 zeros.
+Passed-prime factor zero combs: Re(s_p)=0. Horizontal separation: Delta_p=1/p.
+For a general rho=beta+i*gamma, p*Re(s_p)=2*beta is invariant.
+The shifted line follows from the coordinate map; this does not establish RH or a physical gap.
+Primes label factors, not points on the inherited-zero line.
+At p=2 the comb axis is a reference only: there are no passed-prime zeros.
+All combs include k=0; coincident points are retained. No horizontal jitter is used.
+Static plots use independent x/y scales; comparison panels share limits and include all requested points.
+First inherited zero (positive height):
+  p=2: 0.5000000000 + 14.1347251417i
+  p=3: 0.3333333333 + 9.4231500945i
+  p=5: 0.2000000000 + 5.6538900567i
+  p=7: 0.1428571429 + 4.0384928976i
+  p=11: 0.0909090909 + 2.5699500258i
+Outputs: C:\Users\Dez\Desktop\Workspace\Primes\experiments\prime_frame_geometry\results
