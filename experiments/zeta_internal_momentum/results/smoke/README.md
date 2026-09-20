@@ -1,0 +1,36 @@
+# Zeta internal momentum results
+
+[Experiment interpretation and commands](../../README.md)
+
+```text
+Zeta internal momentum: 5 imposed modes; c=1, hbar=1, kappa=1
+Toy internal momentum gap: 14.1347251417347
+Lowest external-rest energy: 14.1347251417347
+Max KG energy difference: 0.000000e+00
+Max Dirac eigenvalue error: 7.105427e-15
+Max directional P_int error: 3.552714e-15
+Max directional squared-invariant error: 8.526513e-14
+Max operator squared-spectrum error: 0.000000e+00
+Loaded 15 real peak comparisons from C:\Users\Dez\Desktop\Workspace\Primes\experiments\prime_zero_features\results\smoke\nearest_features.csv
+
+Mass is interpreted as invariant internal momentum P_int=m*c in this toy model.
+External p_ext is separate; at external rest E=c*P_int can remain nonzero.
+gamma_n is dimensionless; kappa supplies momentum units. Zeta quantization is imposed.
+Directional distributions alone allow continuous invariant magnitudes.
+KG/Dirac equivalence is expected algebraically, not new dynamics or a derivation of spin.
+The diagonal operator is defined from the zeros; it is not a Hilbert-Pólya operator.
+Prime-product peaks are optional comparisons, not the defined spectrum or a physical cause.
+No RH, quantum-gravity, Yang-Mills, particle-generation, or proven physical mass-gap claim follows.
+```
+
+![zeta internal momentum spectrum](zeta_internal_momentum_spectrum.png)
+
+![dispersion branches](dispersion_branches.png)
+
+![directional states same invariant](directional_states_same_invariant.png)
+
+![kg equivalence](kg_equivalence.png)
+
+![dirac spectrum check](dirac_spectrum_check.png)
+
+![prime peak to internal mode](prime_peak_to_internal_mode.png)

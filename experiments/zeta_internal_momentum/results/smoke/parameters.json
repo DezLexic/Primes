@@ -1,0 +1,21 @@
+{
+  "zeros": 5,
+  "dps": 30,
+  "kappa": 1.0,
+  "c": 1.0,
+  "hbar": 1.0,
+  "p_max": 30.0,
+  "points": 101,
+  "directional_mode": 1,
+  "prime_features": null,
+  "no_prime_features": false,
+  "output": "C:\\Users\\Dez\\Desktop\\Workspace\\Primes\\experiments\\zeta_internal_momentum\\results\\smoke",
+  "timestamp_utc": "2026-09-20T18:15:53.151839+00:00",
+  "python": "3.13.12",
+  "numpy": "2.5.2",
+  "matplotlib": "3.11.1",
+  "mpmath": "1.3.0",
+  "resolved_prime_features": "C:\\Users\\Dez\\Desktop\\Workspace\\Primes\\experiments\\prime_zero_features\\results\\smoke\\nearest_features.csv",
+  "prime_features_sha256": "48f3645596c4116be458c6f769fa235b2ee81e7b79da824a3ef32579a22c2cd4",
+  "prime_feature_status": "Loaded 15 real peak comparisons from C:\\Users\\Dez\\Desktop\\Workspace\\Primes\\experiments\\prime_zero_features\\results\\smoke\\nearest_features.csv"
+}

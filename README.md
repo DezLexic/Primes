@@ -55,6 +55,13 @@ Primes/
       test_model.py
       README.md
       results/
+    zeta_internal_momentum/
+      model.py
+      plotting.py
+      run.py
+      test_model.py
+      README.md
+      results/
 ```
 
 ## Setup (PowerShell)
@@ -82,6 +89,7 @@ using the environment's Python directly avoids PowerShell activation-policy issu
 | [Normalized prime frames](experiments/prime_frame_normalized/README.md) | Which geometry stays fixed after measuring both axes in units of the frame gap? | [Results gallery](experiments/prime_frame_normalized/results/README.md) |
 | [Prime-factor phasors](experiments/prime_factor_phasors/README.md) | Why do individual factors cancel on the zero line, and how do their intensities multiply? | [Smoke gallery](experiments/prime_factor_phasors/results/smoke/README.md) |
 | [Finite-product zero features](experiments/prime_zero_features/README.md) | Do finite-product extrema stabilize near zeta-zero heights, beyond scrambled controls? | [Smoke gallery](experiments/prime_zero_features/results/smoke/README.md) |
+| [Zeta internal momentum](experiments/zeta_internal_momentum/README.md) | What does an imposed zeta invariant-momentum spectrum look like in ordinary KG/Dirac dispersion? | [Smoke gallery](experiments/zeta_internal_momentum/results/smoke/README.md) |
 
 ## Run and revisit
 
@@ -94,6 +102,7 @@ using the environment's Python directly avoids PowerShell activation-policy issu
 .\.venv\Scripts\python.exe .\experiments\prime_frame_normalized\run.py
 .\.venv\Scripts\python.exe .\experiments\prime_factor_phasors\run.py
 .\.venv\Scripts\python.exe .\experiments\prime_zero_features\run.py
+.\.venv\Scripts\python.exe .\experiments\zeta_internal_momentum\run.py
 ```
 
 The first three commands always save `figure.png`, `figure.txt` (summary), and
@@ -118,6 +127,13 @@ deep sweeps are manual; [its README](experiments/prime_zero_features/README.md)
 lists exact commands, CSV definitions, phase diagnostics, and interpretation limits.
 No naive critical-line Euler-product convergence is assumed.
 
+Zeta internal momentum reuses the true zero generator, imposes `P_int,n=kappa*gamma_n`,
+and checks ordinary KG/Dirac equivalence with `P_int=m*c`. Four directional states
+share one invariant; existing finite-product peaks provide an optional comparison.
+Its included results use five modes and 101 momentum samples. The manual default
+uses eight modes and writes to `experiments/zeta_internal_momentum/results/normal/`.
+This is an imposed toy quantization rule, not a derived physical mass gap.
+
 Defaults are anchored to the script's directory, independent of your working directory.
 Rerunning replaces that experiment's default results. To preserve a comparison,
 use `--save .\experiments\kg_worldline\results\variant.png` or prime frame's
@@ -136,6 +152,7 @@ Run the lightweight numerical tests:
 .\.venv\Scripts\python.exe -m unittest discover -s experiments/prime_frame_normalized -p "test_*.py" -v
 .\.venv\Scripts\python.exe -m unittest discover -s experiments/prime_factor_phasors -p "test_*.py" -v
 .\.venv\Scripts\python.exe -m unittest discover -s experiments/prime_zero_features -p "test_*.py" -v
+.\.venv\Scripts\python.exe -m unittest discover -s experiments/zeta_internal_momentum -p "test_*.py" -v
 ```
 
 The original `prime-wave/` scripts now live under `experiments/`; their numerical
