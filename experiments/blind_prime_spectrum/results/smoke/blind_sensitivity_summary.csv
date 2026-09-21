@@ -1,0 +1,16 @@
+variant,dataset,replicate,consensus_modes,shared_with_baseline,added_vs_baseline,lost_vs_baseline,jaccard_vs_baseline
+strict,real,0,6,6,0,0,1.0
+baseline,real,0,6,6,0,0,1.0
+loose,real,0,7,6,1,0,0.8571428571428571
+strict,phase_scrambled,0,9,9,0,2,0.8181818181818182
+baseline,phase_scrambled,0,11,11,0,0,1.0
+loose,phase_scrambled,0,14,11,3,0,0.7857142857142857
+strict,phase_scrambled,1,8,8,0,1,0.8888888888888888
+baseline,phase_scrambled,1,9,9,0,0,1.0
+loose,phase_scrambled,1,10,9,1,0,0.9
+strict,shuffled_rates,0,7,7,0,1,0.875
+baseline,shuffled_rates,0,8,8,0,0,1.0
+loose,shuffled_rates,0,11,8,3,0,0.7272727272727273
+strict,shuffled_rates,1,6,6,0,0,1.0
+baseline,shuffled_rates,1,6,6,0,0,1.0
+loose,shuffled_rates,1,8,6,2,0,0.75

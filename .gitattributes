@@ -1,2 +1,8 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Frozen numerical artifacts must keep their exact bytes across Windows/Linux.
+/experiments/blind_prime_spectrum/results/** -text
+/experiments/blind_prime_spectrum/*.py text eol=lf
+# This reused source is also byte-hashed in the frozen run's provenance.
+/experiments/prime_zero_features/prime_only.py -text

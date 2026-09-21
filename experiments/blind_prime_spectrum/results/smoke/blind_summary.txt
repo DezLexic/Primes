@@ -1,0 +1,30 @@
+This is a finite critical-line prime-product numerical experiment.
+Finite ordinary Euler products do not naively converge to 1/zeta on Re(s)=1/2.
+Zeta zeros are not used to generate, select, tune, or plot the blind predictions.
+A stable finite-product peak spectrum would not prove RH or asymptotic convergence.
+Controls may also produce apparently stable discrete modes; no special status is assumed.
+Feature density can create accidental structure. Inspect counts and grid checks.
+Hard/taper agreement is a robustness test, not proof.
+Track continuation is heuristic: ambiguities and reconnects warn of possible switching.
+No physical particle or mass spectrum is established; internal momentum is a toy mapping.
+Even an excellent numerical match leaves the generating operator and mathematical explanation unknown.
+Smoke runs check implementation only, not the scientific hypothesis.
+
+Real-prime consensus modes: 6.
+Resolution failures: 0 / 20.
+Refinement failures: 0.
+Failed numerical checks require a new, finer blind run before interpretation; thresholds are not retuned here.
+Stability is finite-window behavior, not certified limiting eigenvalues.
+The batch-shuffled control is nested but constrained; small batches can leave rates unchanged.
+Inspect factor assignments and sensitivity results before interpreting differences from controls.
+
+real r0 hard: stable=7, consensus=6, ambiguous_births=1, reconnects=11
+real r0 taper: stable=9, consensus=6, ambiguous_births=0, reconnects=3
+phase_scrambled r0 hard: stable=16, consensus=11, ambiguous_births=0, reconnects=6
+phase_scrambled r0 taper: stable=11, consensus=11, ambiguous_births=0, reconnects=0
+phase_scrambled r1 hard: stable=15, consensus=9, ambiguous_births=2, reconnects=2
+phase_scrambled r1 taper: stable=12, consensus=9, ambiguous_births=0, reconnects=0
+shuffled_rates r0 hard: stable=10, consensus=8, ambiguous_births=0, reconnects=6
+shuffled_rates r0 taper: stable=11, consensus=8, ambiguous_births=0, reconnects=0
+shuffled_rates r1 hard: stable=8, consensus=6, ambiguous_births=0, reconnects=17
+shuffled_rates r1 taper: stable=11, consensus=6, ambiguous_births=0, reconnects=0

@@ -90,6 +90,7 @@ using the environment's Python directly avoids PowerShell activation-policy issu
 | [Prime-factor phasors](experiments/prime_factor_phasors/README.md) | Why do individual factors cancel on the zero line, and how do their intensities multiply? | [Smoke gallery](experiments/prime_factor_phasors/results/smoke/README.md) |
 | [Finite-product zero features](experiments/prime_zero_features/README.md) | Do finite-product extrema stabilize near zeta-zero heights, beyond scrambled controls? | [Smoke gallery](experiments/prime_zero_features/results/smoke/README.md) |
 | [Zeta internal momentum](experiments/zeta_internal_momentum/README.md) | What does an imposed zeta invariant-momentum spectrum look like in ordinary KG/Dirac dispersion? | [Smoke gallery](experiments/zeta_internal_momentum/results/smoke/README.md) |
+| [Blind prime spectrum](experiments/blind_prime_spectrum/README.md) | Can prime-only peak tracks predict a stable spectrum before loading any zeta zeros? | [Blind smoke gallery](experiments/blind_prime_spectrum/results/smoke/README.md) / [Evaluation](experiments/blind_prime_spectrum/results/smoke/evaluation_README.md) |
 
 ## Run and revisit
 
@@ -133,6 +134,14 @@ share one invariant; existing finite-product peaks provide an optional compariso
 Its included results use five modes and 101 momentum samples. The manual default
 uses eight modes and writes to `experiments/zeta_internal_momentum/results/normal/`.
 This is an imposed toy quantization rule, not a derived physical mass gap.
+
+Blind prime spectrum independently tracks hard-cutoff and tapered peaks, applies
+fixed stability rules to real primes and seeded controls, and freezes all
+predictions before loading zeros for evaluation. Only its smoke example was run;
+normal/deep runs remain manual. [Its README](experiments/blind_prime_spectrum/README.md)
+lists exact PowerShell commands and explains the integrity boundary. Unlike older
+experiments, blind generation requires an empty output directory to preserve its
+frozen predictions.
 
 Defaults are anchored to the script's directory, independent of your working directory.
 Rerunning replaces that experiment's default results. To preserve a comparison,

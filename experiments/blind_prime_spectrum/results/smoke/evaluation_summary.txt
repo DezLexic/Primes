@@ -1,0 +1,26 @@
+This is a finite critical-line prime-product numerical experiment.
+Finite ordinary Euler products do not naively converge to 1/zeta on Re(s)=1/2.
+Zeta zeros are not used to generate, select, tune, or plot the blind predictions.
+A stable finite-product peak spectrum would not prove RH or asymptotic convergence.
+Controls may also produce apparently stable discrete modes; no special status is assumed.
+Feature density can create accidental structure. Inspect counts and grid checks.
+Hard/taper agreement is a robustness test, not proof.
+Track continuation is heuristic: ambiguities and reconnects warn of possible switching.
+No physical particle or mass spectrum is established; internal momentum is a toy mapping.
+Even an excellent numerical match leaves the generating operator and mathematical explanation unknown.
+Smoke runs check implementation only, not the scientific hypothesis.
+
+All comparisons use files verified against the pre-evaluation freeze manifest.
+The reference table covers the entire tau window and includes at least one zero above it.
+Missing/extra counts use one-to-one in-window matching; nearest distances can count the same zero repeatedly.
+Evaluation-only matching tolerance: 0.5. It does not change the predictions.
+No sensitivity variant is selected using its evaluation score.
+Control means depend on mode count and density. These descriptive numbers are not significance tests.
+
+real r0: predicted=6, matched=5, missing=0, extra=1, mean nearest distance=0.2911668894250348
+phase_scrambled r0: predicted=11, matched=1, missing=4, extra=10, mean nearest distance=2.511307157287332
+phase_scrambled r1: predicted=9, matched=0, missing=5, extra=9, mean nearest distance=2.3478585386766366
+shuffled_rates r0: predicted=8, matched=5, missing=0, extra=3, mean nearest distance=1.0609671258220437
+shuffled_rates r1: predicted=6, matched=5, missing=0, extra=1, mean nearest distance=0.2861493185529544
+
+Inspect blind_tracking_diagnostics.csv for possible switching and blind_feature_counts.csv for density effects.

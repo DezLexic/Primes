@@ -1,0 +1,103 @@
+{
+  "cutoffs": [
+    5,
+    7,
+    11,
+    17,
+    29,
+    47,
+    71,
+    101,
+    151,
+    211
+  ],
+  "tau_min": 0.0,
+  "tau_max": 35.0,
+  "points": 1401,
+  "prominence": 0.1,
+  "seed": 1729,
+  "control_replicates": 2,
+  "max_jump": 0.5,
+  "max_gap": 1,
+  "ambiguity_margin": 0.05,
+  "kappa": 1.0,
+  "rules": {
+    "tail_fraction": 0.25,
+    "min_observations": 4,
+    "min_tail_count": 3,
+    "persistence": 0.75,
+    "max_drift": 0.5,
+    "max_slope": 0.25,
+    "agreement": 0.35
+  },
+  "sensitivity": {
+    "strict": {
+      "tail_fraction": 0.25,
+      "min_observations": 4,
+      "min_tail_count": 3,
+      "persistence": 0.85,
+      "max_drift": 0.375,
+      "max_slope": 0.1875,
+      "agreement": 0.26249999999999996
+    },
+    "baseline": {
+      "tail_fraction": 0.25,
+      "min_observations": 4,
+      "min_tail_count": 3,
+      "persistence": 0.75,
+      "max_drift": 0.5,
+      "max_slope": 0.25,
+      "agreement": 0.35
+    },
+    "loose": {
+      "tail_fraction": 0.25,
+      "min_observations": 4,
+      "min_tail_count": 3,
+      "persistence": 0.65,
+      "max_drift": 0.625,
+      "max_slope": 0.3125,
+      "agreement": 0.4375
+    }
+  },
+  "groups": [
+    {
+      "dataset": "real",
+      "replicate": 0
+    },
+    {
+      "dataset": "phase_scrambled",
+      "replicate": 0
+    },
+    {
+      "dataset": "phase_scrambled",
+      "replicate": 1
+    },
+    {
+      "dataset": "shuffled_rates",
+      "replicate": 0
+    },
+    {
+      "dataset": "shuffled_rates",
+      "replicate": 1
+    }
+  ],
+  "tail_definition": "final ceil(tail_fraction * number_of_cutoffs) scheduled cutoffs, common to all tracks",
+  "shuffled_rates": "fixed permutations within entering prime batches; exact frequency set at each scheduled cutoff",
+  "taper": "(1+cos(pi*q/P))/2 multiplying each log term; weights follow amplitude prime q",
+  "resolution": "double grid at first and final cutoff, every dataset and replicate; tolerance=1e-6",
+  "versions": {
+    "python": "3.13.12",
+    "numpy": "2.5.2",
+    "scipy": "1.18.1",
+    "matplotlib": "3.11.1"
+  },
+  "source_sha256": {
+    "artifacts.py": "3de12909a15b48b8d43039de181d5573cd44104e9a67cdc4e451403ad75b003a",
+    "blind_model.py": "290169b0612038850e4e338e8f357fac2b3356815a52625da58e5cc553cea801",
+    "evaluate.py": "5b0abc835113aaf15582e15b89214ac56ba8c70d073daddd8b948b6c3fca464e",
+    "generate.py": "7c2f1168e27f1bc095880d594bba3c059b5891488d82b9d5b4d236df870d188c",
+    "plotting.py": "0ab75cf929698de9bc0bda3a5117b7c1bac156e23c0927dd4bb3af29ac5ff141",
+    "run.py": "06ec99e23da780970f8b41a2a1530b9edf585c65f2d271e2a7a492b506a8cf83",
+    "prime_zero_features/prime_only.py": "9b990e0092344ce82686da542d8fdcfc63e7d358d427fe1d10c7c82bb75ecf57"
+  }
+}
